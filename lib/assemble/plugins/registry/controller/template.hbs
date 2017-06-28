@@ -1,0 +1,16 @@
+"use strict";
+
+var lib = [];
+{{#each sources}}
+{{#if chunk}}
+lib.push({name: '{{{name}}}', chunk: true, controller: function (cb) {
+    require.ensure([], function(require) {
+        cb(require('{{{controller}}}').default);
+    }, '{{{chunk}}}');
+}});
+{{else}}
+import component{{{@index}}} from "{{{controller}}}";
+lib.push({name: '{{{name}}}', controller: (component{{{@index}}})});
+{{/if}}
+{{/each}}
+export default lib;
