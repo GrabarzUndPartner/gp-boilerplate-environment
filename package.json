@@ -34,7 +34,7 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "assemble": "0.24.3",
+    "assemble": "0.17.1",
     "autoprefixer": "6.7.6",
     "babel-cli": "6.24.1",
     "babel-loader": "7.1.1",
