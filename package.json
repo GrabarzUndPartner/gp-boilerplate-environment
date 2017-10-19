@@ -34,7 +34,7 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "assemble": "0.17.0",
+    "assemble": "0.23.0",
     "autoprefixer": "6.7.6",
     "babel-cli": "6.24.1",
     "babel-loader": "7.1.1",
@@ -51,6 +51,7 @@
     "cssmin": "0.4.3",
     "colors": "^1.1.2",
     "delims": "0.4.2",
+    "engine-assemble": "^0.4.1",
     "exports-loader": "0.6.4",
     "file-loader": "0.10.1",
     "glob": "7.1.1",
