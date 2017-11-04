@@ -8,22 +8,24 @@
   },
   "license": "GNU GPLv3",
   "author": "Grabarz & Partner Werbeagentur GmbH",
-  "contributors": [{
-    "name": "Stephan Gerbeth",
-    "email": "stephan.gerbeth@grabarzundpartner.de"
-  }, {
-    "name": "Thorn Walli",
-    "email": "thorn.walli@grabarzundpartner.de"
-  }, {
-    "name": "Boris Horn",
-    "email": "boris.horn@grabarzundpartner.de"
-  }, {
-    "name": "Jan Szidat",
-    "email": "jan.szidat@grabarzundpartner.de"
-  }, {
-    "name": "Fabian Werner",
-    "email": "fabian.werner@grabarzundpartner.de"
-  }],
+  "contributors": [
+    {
+      "name": "Stephan Gerbeth",
+      "email": "stephan.gerbeth@grabarzundpartner.de"
+    },
+    {
+      "name": "Thorn Walli",
+      "email": "thorn.walli@grabarzundpartner.de"
+    },
+    {
+      "name": "Boris Horn",
+      "email": "boris.horn@grabarzundpartner.de"
+    },
+    {
+      "name": "Jan Szidat",
+      "email": "jan.szidat@grabarzundpartner.de"
+    }
+  ],
   "main": "assemblefile.js",
   "repository": {
     "type": "git",
@@ -34,7 +36,7 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "assemble": "0.23.0",
+    "assemble": "0.17.0",
     "autoprefixer": "6.7.6",
     "babel-cli": "6.24.1",
     "babel-loader": "7.1.1",
