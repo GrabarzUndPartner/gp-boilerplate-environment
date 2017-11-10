@@ -85,6 +85,7 @@
     "jshint": "2.9.4",
     "jshint-loader": "0.8.4",
     "lodash": "4.17.4",
+    "micromatch": "^3.1.4",
     "minimist": "1.2.0",
     "mkdirp": "0.5.1",
     "modernizr-loader": "1.0.1",
