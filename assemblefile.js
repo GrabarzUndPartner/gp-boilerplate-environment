@@ -91,7 +91,7 @@ function getJSON(path, options) {
 
 if (!('prebuild' in gulp.tasks)) {
     gulp.task('prebuild', function(callback) {
-        runSequence('clean', 'svg-symbols', ['copy', 'fontmin', 'svgo', 'grid', 'webpack:embed'], 'postcss', 'handlebars', callback);
+        runSequence('clean', 'svg-symbols', 'svgo', 'grid', ['copy', 'fontmin', 'webpack:embed'], 'postcss', 'handlebars', callback);
     });
 }
 
