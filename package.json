@@ -1,6 +1,6 @@
 {
   "name": "gp-boilerplate-environment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Grabarz & Partner - Frontend Environment",
   "homepage": "https://github.com/GrabarzUndPartner/gp-boilerplate-environment#readme",
   "bugs": {
@@ -8,22 +8,24 @@
   },
   "license": "GNU GPLv3",
   "author": "Grabarz & Partner Werbeagentur GmbH",
-  "contributors": [{
-    "name": "Stephan Gerbeth",
-    "email": "stephan.gerbeth@grabarzundpartner.de"
-  }, {
-    "name": "Thorn Walli",
-    "email": "thorn.walli@grabarzundpartner.de"
-  }, {
-    "name": "Boris Horn",
-    "email": "boris.horn@grabarzundpartner.de"
-  }, {
-    "name": "Jan Szidat",
-    "email": "jan.szidat@grabarzundpartner.de"
-  }, {
-    "name": "Fabian Werner",
-    "email": "fabian.werner@grabarzundpartner.de"
-  }],
+  "contributors": [
+    {
+      "name": "Stephan Gerbeth",
+      "email": "stephan.gerbeth@grabarzundpartner.de"
+    },
+    {
+      "name": "Thorn Walli",
+      "email": "thorn.walli@grabarzundpartner.de"
+    },
+    {
+      "name": "Boris Horn",
+      "email": "boris.horn@grabarzundpartner.de"
+    },
+    {
+      "name": "Jan Szidat",
+      "email": "jan.szidat@grabarzundpartner.de"
+    }
+  ],
   "main": "assemblefile.js",
   "repository": {
     "type": "git",
@@ -111,10 +113,10 @@
     "through2": "2.0.3",
     "upath": "1.0.0",
     "url-loader": "0.5.8",
-    "webpack": "3.0.0",
-    "webpack-bundle-analyzer": "2.3.0",
-    "webpack-lighthouse-plugin": "1.0.2",
-    "webpack-polyfills-plugin": "0.0.9",
-    "webpack-stream": "3.2.0"
+    "webpack": "3.12.0",
+    "webpack-bundle-analyzer": "2.13.1",
+    "webpack-lighthouse-plugin": "1.0.4",
+    "webpack-polyfills-plugin": "0.2.0",
+    "webpack-stream": "5.0.0"
   }
 }

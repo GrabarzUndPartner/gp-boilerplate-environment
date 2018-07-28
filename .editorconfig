@@ -9,14 +9,25 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+[*.json]
+max_line_length = 200
+
 [*.js]
+max_line_length = 300
+quote_type = single
 indent_style = space
 indent_size = 4
+trim_trailing_whitespace = false
+
+[*.md]
 trim_trailing_whitespace = false
 
 [*.css]
 indent_style = space
 indent_size = 2
 
-[*.md]
-trim_trailing_whitespace = false
+[*.pcss]
+max_line_length = 300
+quote_type = double
+indent_style = space
+indent_size = 2

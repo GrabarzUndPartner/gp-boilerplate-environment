@@ -1,0 +1,75 @@
+{
+  "folders": [
+    {
+      "path":
+        "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "[handlebars]": {
+      "editor.formatOnSave": false
+    },
+    "emmet.includeLanguages": {
+      "postcss":
+        "css"
+    },
+    "emmet.syntaxProfiles": {
+      "postcss":
+        "css"
+    },
+    "prettier.eslintIntegration": false,
+    "prettier.stylelintIntegration": true,
+    "prettier.disableLanguages": [
+      "vue"
+    ],
+    "prettier.printWidth": 0,
+
+    "html.format.enable": true,
+    "html.format.indentHandlebars": true,
+    "html.format.maxPreserveNewLines": 0,
+
+    "files.exclude": {
+      "build/": true,
+      "production/": true,
+      "dev/": false,
+      "node_modules/": false,
+      "**/.idea": true,
+      "**/*.iml": true,
+      "**/out": true,
+      "**/gen": true,
+      "**/logs": true,
+      "**/*.log": true,
+      "**/.DS_Store": true
+    },
+    "files.associations": {
+      ".postcssrc":
+        "json",
+      ".stylelintrc":
+        "json",
+      ".vcmrc":
+        "json",
+      "*.css":
+        "postcss",
+      "*.pcss":
+        "postcss"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "codezombiech.gitignore",
+      "davidanson.vscode-markdownlint",
+      "dbaeumer.jshint",
+      "editorconfig.editorconfig",
+      "esbenp.prettier-vscode",
+      "ms-ceintl.vscode-language-pack-de",
+      "naumovs.color-highlight",
+      "ricard.postcss",
+      "shinnn.stylelint",
+      "tomesterez.style-vars-panel",
+      "wayou.vscode-todo-highlight",
+      "yzhang.markdown-all-in-one",
+      "zignd.html-css-class-completion"
+    ]
+  }
+}
